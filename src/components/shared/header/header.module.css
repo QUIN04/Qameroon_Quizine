@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  top: 3rem;
+  left: 72px;
+  width: calc(100% - 144px);
+  display: flex;
+  align-items: center;
+  padding: 3rem 2.4rem;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 9999;
+  border-top: 5px solid black;
+}
+
+.logo h2 {
+  color: black;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.list button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.6);
+  transition: 0.2s ease-in-out;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.list button:hover {
+  color: #000;
+}
